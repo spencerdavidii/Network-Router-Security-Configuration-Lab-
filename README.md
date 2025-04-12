@@ -27,7 +27,8 @@ The first goal of this lab was to connect router 1 and router 2 by their Gigabit
 I connected the two routers with a standard network cable (called a straight-through cable) using the ports labeled GigabitEthernet0/0.GigabitEthernet is a very high-speed port on the router used for network connections.
 
 
-![image](https://github.com/user-attachments/assets/ec64e3c3-1fec-428a-8ec9-454b4b67c224)                ![image](https://github.com/user-attachments/assets/d4d9a884-6ad9-4c31-aa2c-e30871920877)
+![image](https://github.com/user-attachments/assets/7928c638-7f77-40ef-ba73-649b083aebfd)
+                                                                                                ![image](https://github.com/user-attachments/assets/d4d9a884-6ad9-4c31-aa2c-e30871920877)
 
 
 
