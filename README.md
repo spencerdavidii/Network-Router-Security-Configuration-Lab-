@@ -44,9 +44,7 @@ The goal of this lab was to get comfortable setting up network equipment like ro
 The first goal of this lab was to connect router 1 and router 2 by their Gigabitethernet0/0 interfaces. I used the hostname command in global configuration mode to name my routerS "R1"  and "R2" for easy identification in the network setup. 
 I utilized these commands below to complete the step. 
 
-Router> enable
-Router# configure terminal
-Router(config)# hostname R1
+Router> enable Router# configure terminal Router(config)# hostname R1
 
 
 ![image](https://github.com/user-attachments/assets/57d969c4-b91c-4434-9ecd-534b416d1499)
