@@ -46,7 +46,8 @@ I utilized these commands below in the screenshot  to complete the step.
 
 
 ![image](https://github.com/user-attachments/assets/57d969c4-b91c-4434-9ecd-534b416d1499)
-**Commands Utitlized To Change Hostnames **
+
+**Commands Utitlized To Change Hostnames**
 
 Essentality, routers are devices that help connect networks. Routers can forward data from one network to another based on Ip address. They are the gateway of the network. 
 
