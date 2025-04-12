@@ -8,18 +8,18 @@ The goal of this lab was to get comfortable setting up network equipment like ro
 
 * Command-Line Interface (CLI) – Used to enter commands for configuring routers and switches
 
-PCs, Switch, and Router (virtual) – Basic network components used to test and apply configurations
+* PCs, Switch, and Router (virtual) – Basic network components used to test and apply configurations
 
 ###  Skills Learned
-Learned how to set hostnames to identify devices on a network
+* Learned how to set hostnames to identify devices on a network
 
-Assigned IP addresses to network interfaces for communication
+* Assigned IP addresses to network interfaces for communication
 
-Enabled interfaces (turned on device ports) to establish basic connectivity
+* Enabled interfaces (turned on device ports) to establish basic connectivity
 
-Practiced using the CLI (Command-Line Interface) to enter configuration commands
+* Practiced using the CLI (Command-Line Interface) to enter configuration commands
 
-Gained foundational knowledge for setting up and verifying small network environments
+* Gained foundational knowledge for setting up and verifying small network environments
 
 
 
