@@ -40,6 +40,7 @@ The goal of this lab was to get comfortable setting up network equipment like ro
 * Gained foundational knowledge for setting up and verifying small network environments
 
 
+### Lab Instruction 1
 
 The first goal of this lab was to connect router 1 and router 2 by their Gigabitethernet0/0 interfaces. I used the hostname command in global configuration mode to name my routerS "R1"  and "R2" for easy identification in the network setup. 
 I utilized these commands below in the screenshot  to complete the step. 
