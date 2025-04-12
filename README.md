@@ -61,6 +61,4 @@ I connected the two routers with a standard network cable (called a straight-thr
   ![image](https://github.com/user-attachments/assets/d4d9a884-6ad9-4c31-aa2c-e30871920877)
 
 
-Router> enable
-Router# configure terminal
-Router(config)# hostname R1
+
