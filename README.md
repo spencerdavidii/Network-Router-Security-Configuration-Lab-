@@ -4,9 +4,9 @@
 The goal of this lab was to get comfortable setting up network equipment like routers and switches from scratch. II learned how to name the devices,assign ip addresses, turn on their ports, and give them the right digital addresses so they can talk to each other. This helped me understand the basic steps needed to power network device online and ensure basic connectivity . Learning these setup tasks is a key building block for working with larger systems and keeping networks secure.
 
 ### Tools 
-Cisco Packet Tracer – Used to simulate and configure network devices in a virtual lab environment
+* Cisco Packet Tracer – Used to simulate and configure network devices in a virtual lab environment
 
-Command-Line Interface (CLI) – Used to enter commands for configuring routers and switches
+* Command-Line Interface (CLI) – Used to enter commands for configuring routers and switches
 
 PCs, Switch, and Router (virtual) – Basic network components used to test and apply configurations
 
