@@ -40,7 +40,7 @@ The goal of this lab was to get comfortable setting up network equipment like ro
 * Gained foundational knowledge for setting up and verifying small network environments
 
 
-### Lab Instruction 1
+### Lab Instructions for 1 and 2
 
 The first goal of this lab was to connect router 1 and router 2 by their Gigabitethernet0/0 interfaces. Essentality, routers are devices that help connect networks. Routers can forward data from one network to another based on Ip address. They are the gateway of the network. 
 
@@ -59,9 +59,11 @@ I utilized these commands below in the screenshot  to complete the step.
 
 
 
-  ### Lab Instruction 2
+  ### Lab Instruction 3 
 
-Next, I moved t
+Next, I learned how to set up passwords for each router to connect to cisco. I entered global configuration mode to set a password using the enable password cisco command, which helps secure access to the router's privileged mode.
+![image](https://github.com/user-attachments/assets/6f6139be-78e9-4958-9aa8-ce197a62acb1)
+
 
 
 
