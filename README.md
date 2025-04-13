@@ -88,6 +88,21 @@ I saw the password cisco was not encyrpted. So I ran the commmands below in the 
 
 I completed the same commands for router 2 as well. 
 
+![image](https://github.com/user-attachments/assets/3869ec2a-5ef7-4e1b-888a-e272cd2d632f)
+
+
+
+
+
+Sure! Here are four non-technical sentences about the importance of encryption for router passwords:
+
+Encryption scrambles your router's password so that even if someone tries to steal it, they can’t read it.
+
+It helps protect sensitive access credentials from hackers or anyone trying to break into the network.
+
+Without encryption, passwords can be exposed in plain text, making it easier for attackers to take control.
+
+Using encryption is like putting your password in a locked box—only someone with the right key can open it.
 
 
 
