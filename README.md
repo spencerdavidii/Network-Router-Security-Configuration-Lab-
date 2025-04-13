@@ -62,7 +62,9 @@ I utilized these commands below in the screenshot  to complete the step.
   ### Lab Instruction 3 
 
 Next, I learned how to set up passwords for each router to connect to cisco. I entered global configuration mode to set a password using the enable password cisco command, which helps secure access to the router's privileged mode.
-![image](https://github.com/user-attachments/assets/6f6139be-78e9-4958-9aa8-ce197a62acb1)
+
+
+![image](https://github.com/user-attachments/assets/e7bf9ec1-7715-43bd-b6e6-da7fb46841d4)     ![image](https://github.com/user-attachments/assets/6f6139be-78e9-4958-9aa8-ce197a62acb1)
 
 
 
