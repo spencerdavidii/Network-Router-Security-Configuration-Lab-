@@ -88,7 +88,7 @@ I saw the password cisco was not encyrpted. So I ran the commmands below in the 
 
 I completed the same commands for router 2 as well. 
 
-![image](https://github.com/user-attachments/assets/fbb79a42-b333-416c-8530-38b63a2b13e6)
+
 
 
 
