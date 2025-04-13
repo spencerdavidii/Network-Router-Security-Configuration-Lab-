@@ -62,11 +62,45 @@ I utilized these commands below in the screenshot  to complete the step.
   ### Lab Instruction 3 
 
 Next, I learned how to set up passwords for each router to connect to cisco. I entered global configuration mode to set a password using the enable password cisco command, which helps secure access to the router's privileged mode.
+Then, I set the password network for the second router as well.
 
 
   ![image](https://github.com/user-attachments/assets/89cac745-0639-4e91-b414-ed8187eae2d8)   ![image](https://github.com/user-attachments/assets/5b6d2cb8-6d8f-442a-93e2-b0bbb4e84400)      
 
 ![image](https://github.com/user-attachments/assets/d9defb02-ae8a-4a34-bdce-50392e002ab2)     ![image](https://github.com/user-attachments/assets/514b94b8-eb10-40c3-93a7-bacd23cd5669)
+
+### Protecting Your Network: The Role of Router Passwords
+Setting passwords on routers is important for network security. Without a password, any one could access the router’s configuration settings and make changes.
+Additionally, Attackers often look for open, unsecured devices on a network. A router without a password is an easy entry point for network hijacking, man-in-the-middle attacks, denial-of-service (DoS) attacks.
+
+
+### Lab instruction 4 
+
+For step four of the lab, I went to view  the password for R1 in the running configuration. The objective was to identify is the password encrypted. 
+I saw the password cisco was not encyrpted. So I ran the commmand below in the screenshot
+
+![image](https://github.com/user-attachments/assets/fdc10a40-0862-40ef-950d-2200dbf2dadc)
+
+
+![router 1 encyrption ](https://github.com/user-attachments/assets/ac9d9ff8-5497-44f1-9c57-63885725789a)
+
+I completed the same commands for router 2 as well. 
+
+![image](https://github.com/user-attachments/assets/fbb79a42-b333-416c-8530-38b63a2b13e6)
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/ffaaf0cd-ccd8-4808-8007-7f065d5c6dcf)
+
+
+
+
+![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)
+
+![image](https://github.com/user-attachments/assets/a9c91940-cbea-4701-992b-3e147861cbdf)
 
 
 
