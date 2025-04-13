@@ -54,10 +54,10 @@ I utilized these commands below in the screenshot  to complete the step.
 
 
 
-![image](https://github.com/user-attachments/assets/57d969c4-b91c-4434-9ecd-534b416d1499)
+![image](https://github.com/user-attachments/assets/57d969c4-b91c-4434-9ecd-534b416d1499)                ![image](https://github.com/user-attachments/assets/d4d9a884-6ad9-4c31-aa2c-e30871920877)
 
 
-#### Heading 4 **Commands Utitlized To Change Hostnames**
+#### Heading 4 **Commands Utitlized To Change Hostnames**                                               **Routers R1 and R2 **
 
 Essentality, routers are devices that help connect networks. Routers can forward data from one network to another based on Ip address. They are the gateway of the network. 
 
