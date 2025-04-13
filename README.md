@@ -57,15 +57,7 @@ I utilized these commands below in the screenshot  to complete the step.
 ![image](https://github.com/user-attachments/assets/57d969c4-b91c-4434-9ecd-534b416d1499)     
 
 
-#### Heading 4 **Commands Utitlized To Change Hostnames**                                                                         ### heADING 4 Routers R1 and R2 **
 
-Essentality, routers are devices that help connect networks. Routers can forward data from one network to another based on Ip address. They are the gateway of the network. 
-
-![image](https://github.com/user-attachments/assets/7928c638-7f77-40ef-ba73-649b083aebfd)
-
-I connected the two routers with a standard network cable (called a straight-through cable) using the ports labeled GigabitEthernet0/0.GigabitEthernet is a very high-speed port on the router used for network connections.
-
-  ![image](https://github.com/user-attachments/assets/d4d9a884-6ad9-4c31-aa2c-e30871920877)
 
   ### Lab Instruction 2
 
