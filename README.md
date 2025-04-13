@@ -67,7 +67,7 @@ Next, I learned how to set up passwords for each router to connect to cisco. I e
 Then, I set the password network for the second router as well.
 
 
-  ![image](https://github.com/user-attachments/assets/89cac745-0639-4e91-b414-ed8187eae2d8)   ![image](https://github.com/user-attachments/assets/5b6d2cb8-6d8f-442a-93e2-b0bbb4e84400)      
+ ![image](https://github.com/user-attachments/assets/89cac745-0639-4e91-b414-ed8187eae2d8)   ![image](https://github.com/user-attachments/assets/5b6d2cb8-6d8f-442a-93e2-b0bbb4e84400)      
 
 ![image](https://github.com/user-attachments/assets/d9defb02-ae8a-4a34-bdce-50392e002ab2)     ![image](https://github.com/user-attachments/assets/514b94b8-eb10-40c3-93a7-bacd23cd5669)
 
@@ -81,7 +81,8 @@ Additionally, Attackers often look for open, unsecured devices on a network. A r
 For step four of the lab, I went to view  the password for R1 in the running configuration. The objective was to identify is the password encrypted. 
 I saw the password cisco was not encyrpted. So I ran the commmands below in the screenshot
 
-![image](https://github.com/user-attachments/assets/5ac41656-5985-4939-96e7-152d5ffb3b22      ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)   
+![image](https://github.com/user-attachments/assets/58d63f1f-a35f-4b96-95c4-e5049b13a4c4)
+    ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)   
                                                                                            
 
 
