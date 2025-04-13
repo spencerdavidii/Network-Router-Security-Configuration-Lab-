@@ -66,6 +66,10 @@ Next, I learned how to set up passwords for each router to connect to cisco. I e
 
 ![image](https://github.com/user-attachments/assets/e7bf9ec1-7715-43bd-b6e6-da7fb46841d4)     ![image](https://github.com/user-attachments/assets/6f6139be-78e9-4958-9aa8-ce197a62acb1)
 
+![image](https://github.com/user-attachments/assets/d9defb02-ae8a-4a34-bdce-50392e002ab2)     ![image](https://github.com/user-attachments/assets/514b94b8-eb10-40c3-93a7-bacd23cd5669)
+
+
+
 
 
 
