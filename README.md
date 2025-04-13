@@ -94,18 +94,6 @@ I completed the same commands for router 2 as well.
 
 
 
-Sure! Here are four non-technical sentences about the importance of encryption for router passwords:
-
-Encryption scrambles your router's password so that even if someone tries to steal it, they can’t read it.
-
-It helps protect sensitive access credentials from hackers or anyone trying to break into the network.
-
-Without encryption, passwords can be exposed in plain text, making it easier for attackers to take control.
-
-Using encryption is like putting your password in a locked box—only someone with the right key can open it.
-
-
-
 
 
 
