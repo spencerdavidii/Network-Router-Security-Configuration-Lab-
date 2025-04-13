@@ -79,7 +79,8 @@ Additionally, Attackers often look for open, unsecured devices on a network. A r
 For step four of the lab, I went to view  the password for R1 in the running configuration. The objective was to identify is the password encrypted. 
 I saw the password cisco was not encyrpted. So I ran the commmand below in the screenshot
 
-![image](https://github.com/user-attachments/assets/fdc10a40-0862-40ef-950d-2200dbf2dadc)
+![image](https://github.com/user-attachments/assets/fdc10a40-0862-40ef-950d-2200dbf2dadc)       ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)   
+                                                                                           
 
 
 ![router 1 encyrption ](https://github.com/user-attachments/assets/ac9d9ff8-5497-44f1-9c57-63885725789a)
