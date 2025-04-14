@@ -79,7 +79,8 @@ Additionally, Attackers often look for open, unsecured devices on a network. A r
 ### Lab instruction 4 
 
 For step four of the lab, I went to view  the password for R1 in the running configuration. The objective was to identify is the password encrypted. 
-I saw the password cisco was not encyrpted. So I ran the commmands below in the screenshot
+I saw the password cisco was not encyrpted. So I ran the commmands *#do sh run* from global configuration mode Privileged EXEC  mode below in the screenshot. 
+The show running command can aabbreviated as sh run 
 
 ![image](https://github.com/user-attachments/assets/58d63f1f-a35f-4b96-95c4-e5049b13a4c4)
     ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)   
