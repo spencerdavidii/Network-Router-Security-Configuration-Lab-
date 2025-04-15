@@ -60,6 +60,7 @@ I utilized these commands below in the screenshot  to complete the step.
 ![image](https://github.com/user-attachments/assets/50caae85-6720-4881-a3a1-387699fa6475)
 
 **Troubleshooting Tip**
+
 While working on this lab, I noticed I couldn’t run certain commands after entering configuration mode. The fix was simple but is important to remember. 
 I first had to type the enable command to enter privileged EXEC mode (also known as enable mode). Only then could I access global configuration mode with configure terminal.
 This step is like unlocking "Admin access" before making deep changes to the router. Without it, the router will block certain commands to protect itself.
