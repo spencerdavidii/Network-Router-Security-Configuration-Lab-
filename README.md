@@ -63,8 +63,8 @@ I utilized these commands below in the screenshot  to complete the step.
 
   ### Lab Instruction 3 
 
-Next, I learned how to set up passwords for each router to connect to cisco. I entered global configuration mode to set a password using the enable password cisco command, which helps secure access to the router's privileged mode.
-Then, I set the password network for the second router as well.
+Next, I learned how to set up passwords for each router. I entered global configuration mode to set a password using the enable password cisco command for Router 1. Then, I set the password network for the second router as well.
+
 
 
  ![image](https://github.com/user-attachments/assets/89cac745-0639-4e91-b414-ed8187eae2d8)   ![image](https://github.com/user-attachments/assets/5b6d2cb8-6d8f-442a-93e2-b0bbb4e84400)      
@@ -90,7 +90,7 @@ I saw the password cisco was not encyrpted. So I ran the show runnng commmand *#
 I completed the same commands for router 2 as well. 
 
 ![image](https://github.com/user-attachments/assets/3869ec2a-5ef7-4e1b-888a-e272cd2d632f)
-
+****Get screenshot of router 2 before passsword was encrypted
 
 
 
