@@ -84,12 +84,13 @@ I saw the password cisco was not encyrpted. So I ran the show runnng commmand *#
 ![image](https://github.com/user-attachments/assets/58d63f1f-a35f-4b96-95c4-e5049b13a4c4)
 **Before Encryption**
     ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)   
-**After Encryption** 
+ **After Encryption** 
 
 
 I completed the same commands for router 2 as well. 
 
 ![image](https://github.com/user-attachments/assets/3869ec2a-5ef7-4e1b-888a-e272cd2d632f)
+
 
 
 
