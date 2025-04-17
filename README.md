@@ -137,9 +137,9 @@ The command show running-config (or show run for short) lets you peek at all the
 
 
 
-## 🔑 Cisco IOS Modes Breakdown
+## Cisco IOS Modes Breakdown
 
-| Prompt              | Mode Name                    | What You Can Do                                                 | Explanation You Can Use Out Loud                                      |
+| Prompt              | Mode Name                    | What You Can Do                                                 | Explanation                                                              |
 |---------------------|------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------|
 | `R1>`              | User EXEC Mode               | Basic, view-only access (can't make changes)                     | "This is like being a guest — I can look, but I can't touch anything." |
 | `R1#`              | Privileged EXEC Mode         | Full read access and some powerful commands like `show run`      | "I used `enable` to unlock higher access and view system configs."     |
