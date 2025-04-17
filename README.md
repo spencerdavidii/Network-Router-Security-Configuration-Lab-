@@ -66,7 +66,9 @@ I first had to type the enable command to enter privileged EXEC mode (also known
 This step is like unlocking "Admin access" before making deep changes to the router. Without it, the router will block certain commands to protect itself.
 
  Quick Command Flow:
-
+Router> enable
+Router# configure terminal
+Router(config)#
 
   ### Lab Instruction 3 
 
@@ -107,6 +109,31 @@ I completed the same commands for router 2 as well.
 
 
 
+ What I Learned in this lab
+I learned how to navigate between different user modes in Cisco IOS, including user EXEC, privileged EXEC (enable mode), and global configuration mode. This helped unlock deeper access levels on the router so I could make important changes. 
+
+I now understand the importance of using the enable command to gain higher-level access before configuring the router.
+
+I practiced entering and exiting configuration modes using commands like enable, configure terminal, and exit.
+
+I became more familiar with basic router command-line navigation, which is essential for network setup and troubleshooting.
+
+I gained hands-on experience in identifying and resolving permission-related errors when working with router commands.
+
+
+
+
+
+- Used `enable` to enter **privileged EXEC mode**, which allows advanced commands.
+- Entered **global configuration mode** with `configure terminal` to make changes to the router.
+
+
+The command show running-config (or show run for short) lets you peek at all the current router settings while you're still inside the configuration mode. It’s like checking your notes while you're still writing them — super helpful to make sure you're doing things right.
+
+
+ troubleshooting tip or note like:
+
+ Note: I tried running show run while in configuration mode and received an error. I learned that show commands require either exiting to privileged mode or using the do keyword like do show run.
 
 
 
