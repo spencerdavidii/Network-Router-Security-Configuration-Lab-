@@ -137,12 +137,17 @@ The command show running-config (or show run for short) lets you peek at all the
 
 
 
+## 🔑 Cisco IOS Modes Breakdown
 
-Prompt	Mode Name	What You Can Do	Example Talk-Through
-R1>	User EXEC Mode	Basic view-only access (can’t change anything)	“This is like being a guest in the system — I can look around but not make any changes.”
-R1#	Privileged EXEC Mode (also called Enable Mode)	Full read access + some powerful commands like show run	“I used enable to enter privileged EXEC mode, which let me check the router’s current configuration.”
-R1(config)#	Global Configuration Mode	Allows you to change the router’s settings	“Once in enable mode, I used configure terminal to enter global config mode to make changes like setting a hostname or password.”
-R1(config-if)#	Interface Configuration Mode	Configures specific ports (like FastEthernet0/0)	“If I want to set up an IP address on a port, I go into interface config mode using interface FastEthernet0/0.”
+| Prompt              | Mode Name                    | What You Can Do                                                 | Explanation You Can Use Out Loud                                      |
+|---------------------|------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------|
+| `R1>`              | User EXEC Mode               | Basic, view-only access (can't make changes)                     | "This is like being a guest — I can look, but I can't touch anything." |
+| `R1#`              | Privileged EXEC Mode         | Full read access and some powerful commands like `show run`      | "I used `enable` to unlock higher access and view system configs."     |
+| `R1(config)#`      | Global Configuration Mode    | Make system-wide changes to the router                           | "I entered `configure terminal` to start changing router settings."    |
+| `R1(config-if)#`   | Interface Configuration Mode | Configure specific ports (like Ethernet or Serial interfaces)    | "This is where I set IP addresses or turn interfaces on/off."          |
+| `R1(config-line)#` | Line Configuration Mode      | Set up console or remote access (like SSH or Telnet)             | "I used this to secure console and VTY access to the device."          |
+
+
 
 
 
