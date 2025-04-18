@@ -57,7 +57,8 @@ I utilized these commands below in the screenshot  to complete the step.
 
 
 ![image](https://github.com/user-attachments/assets/57d969c4-b91c-4434-9ecd-534b416d1499)     
-![image](https://github.com/user-attachments/assets/50caae85-6720-4881-a3a1-387699fa6475)
+![image](https://github.com/user-attachments/assets/50caae85-6720-4881-a3a1-387699fa6475)           ![image](https://github.com/user-attachments/assets/9e38ade0-60e5-4547-935d-df4d1275f19b)
+
 
 **Troubleshooting Tip**
 
