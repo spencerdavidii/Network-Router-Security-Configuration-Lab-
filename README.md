@@ -86,13 +86,16 @@ Setting passwords on routers is important for network security. Without a passwo
 Additionally, Attackers often look for open, unsecured devices on a network. A router without a password is an easy entry point for network hijacking, man-in-the-middle attacks, denial-of-service (DoS) attacks.
 
 
-### Lab instruction 4 and 5
+### Lab instruction 4 
 
 For step four of the lab, I navigated to the current configuration of the router to anaylze if the router's password is encrypted. 
-I saw the password cisco was not encrypted.So,  I ran the show runnng commmand *#do sh run* from global configuration mode below in the screenshot.                                                                                       
+ I ran the show runnng commmand *#do sh run* from global configuration mode below in the screenshot.I saw the password cisco was not encrypted                                                                                     
 
 ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)    
-**Before Encryption for R1**                                                                                           
+**Before Encryption for R1**
+
+### Lab instruction 5
+In order to complete the necessary steps to encyrpt the password. I ran the 
  
 ![image](https://github.com/user-attachments/assets/58d63f1f-a35f-4b96-95c4-e5049b13a4c4)      
 **After Encryption for R1**             
