@@ -92,7 +92,7 @@ For step four of the lab, I navigated to the current configuration of the router
 I saw the password cisco was not encyrpted. So I ran the show runnng commmand *#do sh run* from global configuration mode below in the screenshot. 
 
 ![image](https://github.com/user-attachments/assets/58d63f1f-a35f-4b96-95c4-e5049b13a4c4)
- **Before Encryption**
+     **Before Encryption**
     ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)   
  **After Encryption** 
 
