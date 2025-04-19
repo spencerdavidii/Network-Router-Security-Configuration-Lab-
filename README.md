@@ -21,7 +21,7 @@ The goal of this lab was to get comfortable setting up network equipment like ro
 8. View the password in the running configuration. Is it encrypted?
 
 
-### Tools 
+### Tools  
 * Cisco Packet Tracer – Used to simulate and configure network devices in a virtual lab environment
 
 * Command-Line Interface (CLI) – Used to enter commands for configuring routers and switches
@@ -86,9 +86,9 @@ Setting passwords on routers is important for network security. Without a passwo
 Additionally, Attackers often look for open, unsecured devices on a network. A router without a password is an easy entry point for network hijacking, man-in-the-middle attacks, denial-of-service (DoS) attacks.
 
 
-### Lab instruction 4 
+### Lab instruction 4 and 5
 
-For step four of the lab, I went to view  the password for R1 in the running configuration. The objective was to identify is the password encrypted. 
+For step four of the lab, I navigated to the current configuration of the router to anaylze if the router's password is encrypted. 
 I saw the password cisco was not encyrpted. So I ran the show runnng commmand *#do sh run* from global configuration mode below in the screenshot. 
 
 ![image](https://github.com/user-attachments/assets/58d63f1f-a35f-4b96-95c4-e5049b13a4c4)
@@ -97,12 +97,12 @@ I saw the password cisco was not encyrpted. So I ran the show runnng commmand *#
  **After Encryption** 
 
 
-I completed the same commands for router 2 as well. 
+I completed show running command *do sh run* from global configuration mode for router 2 as well. 
 
 ![image](https://github.com/user-attachments/assets/3869ec2a-5ef7-4e1b-888a-e272cd2d632f)
 ****Get screenshot of router 2 before passsword was encrypted
 
-
+Now, each router is encrypted and instructions for lab 5 is compeleted.
 
 
 
