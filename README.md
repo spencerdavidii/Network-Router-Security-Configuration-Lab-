@@ -95,21 +95,25 @@ For step four of the lab, I navigated to the current configuration of the router
 **Before Encryption for R1**
 
 ### Lab instruction 5
-In order to complete the necessary steps to encyrpt the password. I ran the 
+In order to complete the necessary steps to encyrpt the password. I typed R1 (config) #service password-encryption as shown in the screenshot below 
+![image](https://github.com/user-attachments/assets/269e8e36-e12e-4662-98e3-4504ac56a886)
+
+Now, the password is encyrpted. 
  
 ![image](https://github.com/user-attachments/assets/58d63f1f-a35f-4b96-95c4-e5049b13a4c4)      
 **After Encryption for R1**             
 
 
 
-I completed show running command *do sh run* from global configuration mode for router 2 as well. 
+I completed the same exact steps for router 2 as well.
+show running command *do sh run* from global configuration mode for router 2 as well. 
 
 ![image](https://github.com/user-attachments/assets/3869ec2a-5ef7-4e1b-888a-e272cd2d632f)
 ****Get screenshot of router 2 before passsword was encrypted
 
 Now, each router is encrypted and instructions for lab 5 is compeleted.
 
-
+### Lab instruction 6
 
 
 
@@ -164,8 +168,7 @@ The command show running-config (or show run for short) lets you peek at all the
 | `R1(config-if)#` / `R2(config-if)#` | Interface Configuration Mode | Configure specific ports (like Ethernet or Serial interfaces)    | "This is where I set IP addresses or turn interfaces on/off."          |
 | `R1(config-line)#` / `R2(config-line)#` | Line Configuration Mode      | Set up console or remote access (like SSH or Telnet)             | "I used this to secure console and VTY access to the device."          |
 
-
-
+sh running-config
 
 
 
