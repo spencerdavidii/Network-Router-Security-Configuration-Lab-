@@ -116,6 +116,29 @@ This includes: Hostname, Interface settings (like IP addresses), Routing protoco
 This command helps confirm if the changes I made in configuration mode are active. 
 It’s especially helpful in troubleshooting when a router isn’t behaving as expected — for example, if a password doesn’t seem to be working, or an IP address isn’t configured properly.
 
+The show running-config command was used to verify the current configuration of the router after setting the hostname and password.
+
+💻 Command Used:
+
+plaintext
+Copy
+Edit
+R2#show running-config
+📋 What I Verified:
+
+The hostname was successfully set to R2
+
+The enable password network command was applied
+
+The service password-encryption command was either enabled or not yet used (based on password visibility)
+
+Other interface settings were reviewed for accuracy
+
+🛠️ Why This Matters:
+This command helps confirm if the changes I made in configuration mode are active. It’s especially helpful in troubleshooting when a router isn’t behaving as expected — for example, if a password doesn’t seem to be working, or an IP address isn’t configured properly.
+
+🧠 What I Learned:
+Not every change is immediately obvious unless verified. Using show running-config gave me confidence that my settings were correct before testing further.
 
 
 
