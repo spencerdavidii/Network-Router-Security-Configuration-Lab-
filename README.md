@@ -67,8 +67,11 @@ I first had to type the enable command to enter privileged EXEC mode (also known
 This step is like unlocking "Admin access" before making deep changes to the router. Without it, the router will block certain commands to protect itself.
 
  Quick Command Flow:
+ 
 Router> enable
+
 Router# configure terminal
+
 Router(config)#
 
   ### Lab Instruction 3 
