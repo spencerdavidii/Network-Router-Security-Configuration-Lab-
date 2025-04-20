@@ -118,20 +118,13 @@ show running command *do sh run* from global configuration mode for router 2 as 
 ![image](https://github.com/user-attachments/assets/3869ec2a-5ef7-4e1b-888a-e272cd2d632f)
 
 
-![image](https://github.com/user-attachments/assets/ff93c0ae-e63e-4cd5-a5ff-d292f6bd05fc)
+![image](https://github.com/user-attachments/assets/c41408d3-3adf-4729-bf75-30a60a76258c)
 ****Get screenshot of router 2 before passsword was encrypted
 
 Now, each router password is encrypted and instructions for lab 5 is compeleted.
 
 ### The purpose of encrypted passwords in cisco 
 Once I encrypt the password Cisco for router 1 and password network for router 2.  it transformed the original password into an unreadable format.
-
-![image](https://github.com/user-attachments/assets/d59609a7-aa16-48fb-91ac-9471c103a8a9)
-
-![image](https://github.com/user-attachments/assets/ead099d5-1fe7-4062-9437-e4325c348a52)
-
-
-
 This prevents anyone who views the router’s configuration from seeing the actual password.
 Also,it adds a layer of protection, making it harder for attackers to guess or steal the password. 
 
