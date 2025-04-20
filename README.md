@@ -118,11 +118,10 @@ This command helps confirm if the changes I made in configuration mode are activ
 
 
 
-### Lab instruction 5
-In order to complete the necessary steps to encyrpt the password. I typed R1 (config) #service password-encryption as shown in the screenshot below 
+### Lab instructions 5 and Lab Instructions 6
+In order to complete the necessary steps to encyrpt the password . I typed R1 (config) #service password-encryption as shown in the screenshot below 
 
-
-Now, the password is encyrpted. 
+ 
  
 ![image](https://github.com/user-attachments/assets/58d63f1f-a35f-4b96-95c4-e5049b13a4c4)      
 **After Encryption for R1**             
@@ -137,9 +136,11 @@ show running command *do sh run* from global configuration mode for router 2 as 
 
 
 ![image](https://github.com/user-attachments/assets/c41408d3-3adf-4729-bf75-30a60a76258c)
-****Get screenshot of router 2 before passsword was encrypted
 
-Now, each router password is encrypted and instructions for lab 5 is compeleted.
+
+Now, each router password is encrypted. We can view this in the router settings in the top screenshot 
+ 
+Lab 5 and Lab 6 have been successfully completed according to the provided instructions.
 
 ### The purpose of encrypted passwords in cisco 
 Once I encrypt the password Cisco for router 1 and password network for router 2.  it transformed the original password into an unreadable format.
@@ -147,23 +148,30 @@ This prevents anyone who views the router’s configuration from seeing the actu
 Also,it adds a layer of protection, making it harder for attackers to guess or steal the password. 
 
 
-### Lab instruction 7
-In this section of the lab, I inserted the commands to disable password encyption. 
+### Lab instruction 7 and Lab insruction 8
+In this section of the lab, I inserted the commands below to disable password encyption. 
 
 R1>enable
+
 Password: 
+
 R1#configure terminal
+
 Enter configuration commands, one per line.  End with CNTL/Z.
+
 R1(config)#no service password-encryption
+
 R1(config)#
-
-
-
-
 
 ![image](https://github.com/user-attachments/assets/798b1db8-4127-4efc-a7d0-6bc4d6f8942e)
 
 ![image](https://github.com/user-attachments/assets/7c4ce453-f1c9-45e9-9653-80e17c326f06)
+
+
+I went back to view the router settings after disabling the encyption for the passwords set up on each individual router.My goal was to identify if the passwords wouldnt showcase as unreadable formats.
+However, the passwords remain encyrpted. Disabling password encryption will only affect new passwords set in the future. It does not decrypt or change passwords that were already encrypted before encryption was turned off.
+
+So, this answer the question View the password in the running configuration. Is it encrypted?
 
 
 
