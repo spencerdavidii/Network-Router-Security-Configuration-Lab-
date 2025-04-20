@@ -113,20 +113,10 @@ For step four of the lab, I navigated to the current configuration of the router
 
 Running the command #do sh run allowed me to view the router’s current settings.
 This includes: Hostname, Interface settings (like IP addresses), Routing protocols, Passwords (if not encrypted), VLAN configurations.
+I saw the hostname and password were enabled.Additionally, the service password-encryption command was not enabled in the *before encryption for r2* screenshot (based on password visibility)
 This command helps confirm if the changes I made in configuration mode are active. 
-It’s especially helpful in troubleshooting when a router isn’t behaving as expected — for example, if a password doesn’t seem to be working, or an IP address isn’t configured properly.
 
-The show running-config command was used to verify the current configuration of the router after setting the hostname and password.
 
-💻 Command Used:
-
-plaintext
-Copy
-Edit
-R2#show running-config
-📋 What I Verified:
-
-The hostname was successfully set to R2
 
 The enable password network command was applied
 
