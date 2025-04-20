@@ -95,7 +95,9 @@ For step four of the lab, I navigated to the current configuration of the router
 **Before Encryption for R1**
 
 **Before Encryption for R2**
-![image](https://github.com/user-attachments/assets/ead099d5-1fe7-4062-9437-e4325c348a52)
+
+![r2 PASSWORD NETWORK](https://github.com/user-attachments/assets/1f807827-3d59-4b06-991e-6cd94401f2ff)
+
 
 
 ### Lab instruction 5
@@ -127,7 +129,6 @@ Once I encrypt the password Cisco for router 1 and password network for router 2
 
 ![image](https://github.com/user-attachments/assets/ead099d5-1fe7-4062-9437-e4325c348a52)
 
-![r2 PASSWORD NETWORK](https://github.com/user-attachments/assets/1f807827-3d59-4b06-991e-6cd94401f2ff)
 
 
 This prevents anyone who views the router’s configuration from seeing the actual password.
