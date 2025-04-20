@@ -104,10 +104,10 @@ For step four of the lab, I navigated to the current configuration of the router
 ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)    
 **Before Encryption for R1**
 
-**Before Encryption for R2**
+
 
 ![image](https://github.com/user-attachments/assets/5bb6230d-3170-4b7f-a85c-c0b469e7f9ed)
-
+**Before Encryption for R2**
 
 
 
