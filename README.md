@@ -94,6 +94,10 @@ For step four of the lab, I navigated to the current configuration of the router
 ![image](https://github.com/user-attachments/assets/1356c7f0-31bc-4094-aeb2-cb84fd7fe61d)    
 **Before Encryption for R1**
 
+**Before Encryption for R2**
+![image](https://github.com/user-attachments/assets/ead099d5-1fe7-4062-9437-e4325c348a52)
+
+
 ### Lab instruction 5
 In order to complete the necessary steps to encyrpt the password. I typed R1 (config) #service password-encryption as shown in the screenshot below 
 ![image](https://github.com/user-attachments/assets/269e8e36-e12e-4662-98e3-4504ac56a886)
