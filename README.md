@@ -114,21 +114,7 @@ For step four of the lab, I navigated to the current configuration of the router
 Running the command #do sh run allowed me to view the router’s current settings.
 This includes: Hostname, Interface settings (like IP addresses), Routing protocols, Passwords (if not encrypted), VLAN configurations.
 I saw the hostname and password were enabled.Additionally, the service password-encryption command was not enabled in the *before encryption for r2* screenshot (based on password visibility)
-This command helps confirm if the changes I made in configuration mode are active. 
-
-
-
-The enable password network command was applied
-
-The service password-encryption command was either enabled or not yet used (based on password visibility)
-
-Other interface settings were reviewed for accuracy
-
-🛠️ Why This Matters:
-This command helps confirm if the changes I made in configuration mode are active. It’s especially helpful in troubleshooting when a router isn’t behaving as expected — for example, if a password doesn’t seem to be working, or an IP address isn’t configured properly.
-
-🧠 What I Learned:
-Not every change is immediately obvious unless verified. Using show running-config gave me confidence that my settings were correct before testing further.
+This command helps confirm if the changes I made in configuration mode are active.Not every change is immediately obvious unless verified. Using show running-config gave me confidence that my settings were correct before testing further.
 
 
 
@@ -155,34 +141,29 @@ show running command *do sh run* from global configuration mode for router 2 as 
 
 Now, each router password is encrypted and instructions for lab 5 is compeleted.
 
-the hostname and password.
-
-💻 Command Used:
-
-plaintext
-Copy
-Edit
-R2#show running-config
-📋 What I Verified:
-
-The hostname was successfully set to R2
-
-The enable password network command was applied
-
-The service password-encryption command was either enabled or not yet used (based on password visibility)
-
-Other interface settings were reviewed for accuracy
-
-This command helps confirm if the changes I made in configuration mode are active. It’s especially helpful in troubleshooting when a router isn’t behaving as expected — for example, if a password doesn’t seem to be working, or an IP address isn’t configured properly.
-
 ### The purpose of encrypted passwords in cisco 
 Once I encrypt the password Cisco for router 1 and password network for router 2.  it transformed the original password into an unreadable format.
 This prevents anyone who views the router’s configuration from seeing the actual password.
 Also,it adds a layer of protection, making it harder for attackers to guess or steal the password. 
 
 
-### Lab instruction 6
+### Lab instruction 7
+In this section of the lab, I inserted the commands to disable password encyption. 
 
+R1>enable
+Password: 
+R1#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#no service password-encryption
+R1(config)#
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/798b1db8-4127-4efc-a7d0-6bc4d6f8942e)
+
+![image](https://github.com/user-attachments/assets/7c4ce453-f1c9-45e9-9653-80e17c326f06)
 
 
 
