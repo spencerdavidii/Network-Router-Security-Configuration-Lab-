@@ -96,7 +96,8 @@ For step four of the lab, I navigated to the current configuration of the router
 
 **Before Encryption for R2**
 
-![r2 PASSWORD NETWORK](https://github.com/user-attachments/assets/1f807827-3d59-4b06-991e-6cd94401f2ff)
+![image](https://github.com/user-attachments/assets/5bb6230d-3170-4b7f-a85c-c0b469e7f9ed)
+
 
 
 
