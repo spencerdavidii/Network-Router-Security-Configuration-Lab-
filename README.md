@@ -103,7 +103,7 @@ For step four of the lab, I navigated to the current configuration of the router
 
 ### Lab instruction 5
 In order to complete the necessary steps to encyrpt the password. I typed R1 (config) #service password-encryption as shown in the screenshot below 
-![image](https://github.com/user-attachments/assets/269e8e36-e12e-4662-98e3-4504ac56a886)
+
 
 Now, the password is encyrpted. 
  
