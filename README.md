@@ -204,13 +204,6 @@ The command show running-config (or show run for short) lets you peek at all the
 
 ## Cisco IOS Modes Breakdown
 
-| Prompt              | Mode Name                    | What You Can Do                                                 | Explanation                                                              |
-|---------------------|------------------------------|------------------------------------------------------------------|------------------------------------------------------------------------|
-| `R1>`              | User EXEC Mode               | Basic, view-only access (can't make changes)                     | "This is like being a guest — I can look, but I can't touch anything." |
-| `R1#`              | Privileged EXEC Mode         | Full read access and some powerful commands like `show run`      | "I used `enable` to unlock higher access and view system configs."     |
-| `R1(config)#`      | Global Configuration Mode    | Make system-wide changes to the router                           | "I entered `configure terminal` to start changing router settings."    |
-| `R1(config-if)#`   | Interface Configuration Mode | Configure specific ports (like Ethernet or Serial interfaces)    | "This is where I set IP addresses or turn interfaces on/off."          |
-| `R1(config-line)#` | Line Configuration Mode      | Set up console or remote access (like SSH or Telnet)             | "I used this to secure console and VTY access to the device."          |
 
 
 ## 🔑 Cisco IOS Modes Breakdown (R1 and R2)
@@ -220,10 +213,8 @@ The command show running-config (or show run for short) lets you peek at all the
 | `R1>` / `R2>`             | User EXEC Mode               | Basic, view-only access (can't make changes)                     | "This is like being a guest — I can look, but I can't touch anything." |
 | `R1#` / `R2#`             | Privileged EXEC Mode         | Full read access and some powerful commands like `show run`      | "I used `enable` to unlock higher access and view system configs."     |
 | `R1(config)#` / `R2(config)#` | Global Configuration Mode    | Make system-wide changes to the router                           | "I entered `configure terminal` to start changing router settings."    |
-| `R1(config-if)#` / `R2(config-if)#` | Interface Configuration Mode | Configure specific ports (like Ethernet or Serial interfaces)    | "This is where I set IP addresses or turn interfaces on/off."          |
-| `R1(config-line)#` / `R2(config-line)#` | Line Configuration Mode      | Set up console or remote access (like SSH or Telnet)             | "I used this to secure console and VTY access to the device."          |
 
-sh running-config
+
 
 
 
