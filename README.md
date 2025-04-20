@@ -109,6 +109,9 @@ I completed the same exact steps for router 2 as well.
 show running command *do sh run* from global configuration mode for router 2 as well. 
 
 ![image](https://github.com/user-attachments/assets/3869ec2a-5ef7-4e1b-888a-e272cd2d632f)
+
+
+![image](https://github.com/user-attachments/assets/ead099d5-1fe7-4062-9437-e4325c348a52)
 ****Get screenshot of router 2 before passsword was encrypted
 
 Now, each router password is encrypted and instructions for lab 5 is compeleted.
