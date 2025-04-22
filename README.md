@@ -135,10 +135,9 @@ I completed the same exact steps for router 2 as well.
 show running command *do sh run* from global configuration mode for router 2 as well. 
 
 ![image](https://github.com/user-attachments/assets/3869ec2a-5ef7-4e1b-888a-e272cd2d632f)
+
+
 **After Encryption for R2**    
-
-
-![image](https://github.com/user-attachments/assets/c41408d3-3adf-4729-bf75-30a60a76258c)
 
 
 Now, each router password is encrypted. We can view this in the router settings in the top screenshot 
@@ -201,6 +200,7 @@ The command show running-config (or show run for short) lets you peek at all the
 
 .
 
+![image](https://github.com/user-attachments/assets/c41408d3-3adf-4729-bf75-30a60a76258c)
 
 
 ## Cisco IOS Modes Breakdown
