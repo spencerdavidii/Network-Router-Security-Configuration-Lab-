@@ -2,7 +2,7 @@
 
 ### OBJECTIVE
 The purpose of this lab was to get comfortable setting up network equipment like routers from scratch.I set up and protected access to the routers using basic password features in Cisco Packet Tracer. 
-I connected two routers (R1 and R2) via their GigabitEthernet interfaces and created hostnames for the routers as well. .Then, I set and and protected access to the routers using basic password features in Cisco Packet Tracer.Then, I turned password encryption on and off to see how it changes what you can see when looking at the router settings. This helped me understand how to protect passwords and why encryption is important.Learning these setup tasks is a key building block for working with larger systems and keeping networks secure.
+I connected two routers (R1 and R2) via their GigabitEthernet interfaces and created hostnames for the routers as well.Then, I set and and protected access to the routers using basic password features in Cisco Packet Tracer.Next,I turned password encryption on and off to see how it changes what you can see when looking at the router settings. This helped me understand how to protect passwords and why encryption is important.Learning these setup tasks is a key building block for working with larger systems and keeping networks secure.
 
 
 
