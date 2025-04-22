@@ -1,7 +1,10 @@
 # Network-Router-Security-Configuration-Lab-
 
 ### OBJECTIVE
-The goal of this lab was to get comfortable setting up network equipment like routers from scratch. II learned how to name the devices,assign ip addresses, turn on their ports, and give them the right digital addresses so they can talk to each other. This helped me understand the basic steps needed to power network device online and ensure basic connectivity . Learning these setup tasks is a key building block for working with larger systems and keeping networks secure.
+The purpose of this lab was to get comfortable setting up network equipment like routers from scratch.I set up and protected access to the routers using basic password features in Cisco Packet Tracer. 
+I connected two routers (R1 and R2) via their GigabitEthernet interfaces and created hostnames for the routers as well. .Then, I set and and protected access to the routers using basic password features in Cisco Packet Tracer.Then, I turned password encryption on and off to see how it changes what you can see when looking at the router settings. This helped me understand how to protect passwords and why encryption is important.Learning these setup tasks is a key building block for working with larger systems and keeping networks secure.
+
+
 
 ### LAB INSTRUCTIONS
 1. Connect R1 and R2 by their GigabitEthernet0/0 interfaces.
@@ -183,6 +186,10 @@ I became more familiar with basic router command-line navigation, which is essen
 I gained hands-on experience in identifying and resolving permission-related errors when working with router commands.
 
 
+### COMMANDS SECTION
+
+enable
+configure terminal
 
 
 
@@ -192,10 +199,7 @@ I gained hands-on experience in identifying and resolving permission-related err
 
 The command show running-config (or show run for short) lets you peek at all the current router settings while you're still inside the configuration mode. It’s like checking your notes while you're still writing them — super helpful to make sure you're doing things right.
 
-
- troubleshooting tip or note like:
-
- Note: I tried running show run while in configuration mode and received an error. I learned that show commands require either exiting to privileged mode or using the do keyword like do show run.
+.
 
 
 
