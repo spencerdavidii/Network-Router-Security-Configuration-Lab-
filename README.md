@@ -179,10 +179,9 @@ lab 7 and Lab 8 have been successfully completed according to the provided instr
 
 * I practiced entering and exiting configuration modes using commands like enable, configure terminal,show running-config,service password-encryption and exit.
 
-
 * I became more familiar with basic router command-line navigation, which is essential for network setup and troubleshooting.
 
-*I gained hands-on experience in identifying and resolving permission-related errors when working with router commands.
+* I gained hands-on experience in identifying and resolving permission-related errors when working with router commands.
 
 
 
