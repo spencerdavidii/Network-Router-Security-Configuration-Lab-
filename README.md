@@ -187,17 +187,6 @@ lab 7 and Lab 8 have been successfully completed according to the provided instr
 
 
 
-- Used `enable` to enter **privileged EXEC mode**, which allows advanced commands.
-- Entered **global configuration mode** with `configure terminal` to make changes to the router.
-
-
-The command show running-config (or show run for short) lets you peek at all the current router settings while you're still inside the configuration mode. It’s like checking your notes while you're still writing them — super helpful to make sure you're doing things right.
-
-.
-
-![image](https://github.com/user-attachments/assets/c41408d3-3adf-4729-bf75-30a60a76258c)
-
-
 ## Cisco IOS Modes Breakdown
 
 
