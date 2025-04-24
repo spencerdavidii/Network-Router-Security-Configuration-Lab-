@@ -217,5 +217,71 @@ The command show running-config (or show run for short) lets you peek at all the
 
 
 
+ Key Configuration Commands
+🔹 Enter Configuration Mode
+bash
+CopyEdit
+enable
+configure terminal
+
+🔹 Set Router Hostname
+bash
+CopyEdit
+hostname R1
+
+🔐 Console Access Password
+bash
+CopyEdit
+line console 0
+password cisco
+login
+exit
+
+🔐 VTY Line Password (Telnet/SSH)
+bash
+CopyEdit
+line vty 0 4
+password cisco
+login
+exit
+
+🔐 Enable Passwords
+bash
+CopyEdit
+enable password cisco         
+enable secret class            
+
+🔐 Encrypt All Passwords
+bash
+CopyEdit
+service password-encryption
+
+📛 Set Login Banner
+bash
+CopyEdit
+banner motd #Unauthorized access is prohibited#
+
+🌐 Assign IP Address & Activate Interface
+bash
+CopyEdit
+interface gigabitEthernet0/0
+ip address 192.168.1.1 255.255.255.0
+no shutdown
+exit
+
+
+✅ Verification Commands
+bash
+CopyEdit
+show ip interface brief
+show running-config
+
+
+💾 Save the Configuration
+bash
+CopyEdit
+copy running-config startup-config
+
+
 
 
