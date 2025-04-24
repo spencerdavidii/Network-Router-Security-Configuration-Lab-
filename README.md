@@ -172,23 +172,18 @@ After completing the command  *#no service running config*, I reviewed the route
 lab 7 and Lab 8 have been successfully completed according to the provided instructions.
 
 
- What I Learned in this lab
-I learned how to navigate between different user modes in Cisco IOS, including user EXEC, privileged EXEC (enable mode), and global configuration mode. This helped unlock deeper access levels on the router so I could make important changes. 
+ ###What I Learned in this lab
+* I learned how to navigate between different user modes in Cisco IOS, including user EXEC, privileged EXEC (enable mode), and global configuration mode. This helped unlock deeper access levels on the router so I could make important changes. 
 
-I now understand the importance of using the enable command to gain higher-level access before configuring the router.
+* I now understand the importance of using the enable command to gain higher-level access before configuring the router.
 
-I practiced entering and exiting configuration modes using commands like enable, configure terminal,show running-config,service password-encryption and exit.
-
-
-I became more familiar with basic router command-line navigation, which is essential for network setup and troubleshooting.
-
-I gained hands-on experience in identifying and resolving permission-related errors when working with router commands.
+* I practiced entering and exiting configuration modes using commands like enable, configure terminal,show running-config,service password-encryption and exit.
 
 
-### COMMANDS SECTION
+* I became more familiar with basic router command-line navigation, which is essential for network setup and troubleshooting.
 
-enable
-configure terminal
+*I gained hands-on experience in identifying and resolving permission-related errors when working with router commands.
+
 
 
 
@@ -216,71 +211,6 @@ The command show running-config (or show run for short) lets you peek at all the
 | `R1(config)#` / `R2(config)#` | Global Configuration Mode    | Make system-wide changes to the router                           | "I entered `configure terminal` to start changing router settings."    |
 
 
-
- Key Configuration Commands
-🔹 Enter Configuration Mode
-bash
-CopyEdit
-enable
-configure terminal
-
-🔹 Set Router Hostname
-bash
-CopyEdit
-hostname R1
-
-🔐 Console Access Password
-bash
-CopyEdit
-line console 0
-password cisco
-login
-exit
-
-🔐 VTY Line Password (Telnet/SSH)
-bash
-CopyEdit
-line vty 0 4
-password cisco
-login
-exit
-
-🔐 Enable Passwords
-bash
-CopyEdit
-enable password cisco         
-enable secret class            
-
-🔐 Encrypt All Passwords
-bash
-CopyEdit
-service password-encryption
-
-📛 Set Login Banner
-bash
-CopyEdit
-banner motd #Unauthorized access is prohibited#
-
-🌐 Assign IP Address & Activate Interface
-bash
-CopyEdit
-interface gigabitEthernet0/0
-ip address 192.168.1.1 255.255.255.0
-no shutdown
-exit
-
-
-✅ Verification Commands
-bash
-CopyEdit
-show ip interface brief
-show running-config
-
-
-💾 Save the Configuration
-bash
-CopyEdit
-copy running-config startup-config
 
 
 
