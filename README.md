@@ -172,7 +172,7 @@ After completing the command  *#no service running config*, I reviewed the route
 lab 7 and Lab 8 have been successfully completed according to the provided instructions.
 
 
- ###What I Learned in this lab
+ ### What I Learned in this lab
 * I learned how to navigate between different user modes in Cisco IOS, including user EXEC, privileged EXEC (enable mode), and global configuration mode. This helped unlock deeper access levels on the router so I could make important changes. 
 
 * I now understand the importance of using the enable command to gain higher-level access before configuring the router.
