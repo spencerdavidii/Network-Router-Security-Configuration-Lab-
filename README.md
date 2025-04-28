@@ -119,15 +119,15 @@ For step four of the lab, I navigated to the current configuration of the router
 
 **Before Encryption for R2**
 
-Running the command #do sh run allowed me to view the router’s current settings.
-This includes: Hostname, Interface settings (like IP addresses), Routing protocols, Passwords (if not encrypted), VLAN configurations.
+When I ran the command #do sh run, this allowed me to view the router’s current settings.
+The router’s current settings showcased hostnames and passwords (if not encrypted)
 I saw the hostname and password were enabled.Additionally, the service password-encryption command was not enabled in the *before encryption for r2* screenshot (based on password visibility)
 This command helps confirm if the changes I made in configuration mode are active.Not every change is immediately obvious unless verified. Using show running-config gave me confidence that my settings were correct before testing further.
 
 
 
 ### Lab instructions 5 and Lab Instructions 6
-In order to complete the necessary steps to encyrpt the password . I typed R1 (config) #service password-encryption as shown in the screenshot below 
+In order to complete the necessary steps to encyrpt the password. I typed **R1 (config) #service password-encryption** as shown in the screenshot below 
 
  
  
