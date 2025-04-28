@@ -172,12 +172,12 @@ R1(config)#
 
 ![image](https://github.com/user-attachments/assets/7c4ce453-f1c9-45e9-9653-80e17c326f06)
 
-After completing the command  *#no service running config*, I reviewed the router settings after disabling encryption. I noticed that the passwords previously set on each individual router remained encrypted, meaning disabling the encryption only applies to new passwords going forward — it does not decrypt existing ones.
+After completing the command  **#no service running config**, I reviewed the router settings after disabling encryption. I noticed that the passwords previously set on each individual router remained encrypted, meaning disabling the encryption only applies to new passwords going forward — it does not decrypt existing ones.
 
-lab 7 and Lab 8 have been successfully completed according to the provided instructions.
+lab 7 and Lab 8 have been successfully completed.
 
 
- ### What I Learned in this lab
+ ### What I Learned in this entire lab
 * I learned how to navigate between different user modes in Cisco IOS, including user EXEC, privileged EXEC (enable mode), and global configuration mode. This helped unlock deeper access levels on the router so I could make important changes. 
 
 * I now understand the importance of using the enable command to gain higher-level access before configuring the router.
@@ -193,8 +193,6 @@ lab 7 and Lab 8 have been successfully completed according to the provided instr
 
 ## Cisco IOS Modes Breakdown
 
-
-
 ## 🔑 Cisco IOS Modes Breakdown (R1 and R2)
 
 | Prompt (R1 / R2)          | Mode Name                    | What You Can Do                                                 | Explanation You Can Use Out Loud                                      |
@@ -202,6 +200,7 @@ lab 7 and Lab 8 have been successfully completed according to the provided instr
 | `R1>` / `R2>`             | User EXEC Mode               | Basic, view-only access (can't make changes)                     | "This is like being a guest — I can look, but I can't touch anything." |
 | `R1#` / `R2#`             | Privileged EXEC Mode         | Full read access and some powerful commands like `show run`      | "I used `enable` to unlock higher access and view system configs."     |
 | `R1(config)#` / `R2(config)#` | Global Configuration Mode    | Make system-wide changes to the router                           | "I entered `configure terminal` to start changing router settings."    |
+
 
 
 
