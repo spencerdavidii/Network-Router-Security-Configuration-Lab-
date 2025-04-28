@@ -67,9 +67,9 @@ I utilized these commands below in the screenshot  to complete the step.
 
 While working on this lab, I noticed I couldn’t run certain commands after entering configuration mode. The fix was simple but is important to remember. 
 I first had to type the enable command to enter privileged EXEC mode (also known as enable mode). Only then could I access global configuration mode with configure terminal.
-This step is like unlocking "Admin access" before making deep changes to the router. Without it, the router will block certain commands to protect itself.
+This step is like unlocking "admin access" before making deep changes to the router. Without it, the router will block certain commands to protect itself. I demonstrated the command flow below. 
 
- Quick Command Flow:
+ ### The Command Flow 
  
 Router> enable
 
@@ -77,7 +77,7 @@ Router# configure terminal
 
 Router(config)#
 
-  ### Lab Instruction 3 
+ ### Lab Instruction 3 
 
 Next, I learned how to set up passwords for each router. I entered global configuration mode to set a password using the enable password cisco command for Router 1. Then, I set the password network for the second router as well.
 
