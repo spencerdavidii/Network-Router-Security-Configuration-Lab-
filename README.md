@@ -79,7 +79,7 @@ Router(config)#
 
  ### Lab Instruction 3 
 
-Next, I learned how to set up passwords for each router. I entered global configuration mode to set a password using the enable password cisco command for Router 1. Then, I set the password network for the second router as well.
+Next, I learned how to set up passwords for each router. I entered global configuration mode to set a password using the enable password cisco command for R1. Then, I enabled password network for R2 as well.
 
 
 
@@ -95,6 +95,11 @@ Additionally, Attackers often look for open, unsecured devices on a network. A r
 ### Troubleshooting Tip
 After setting the enable password network, I wasn’t prompted to enter the password when I typed enable again. This is because I was still in Privileged EXEC mode (R2#).
 To test the password prompt, I had to type exit twice to return to User EXEC mode (R2>), then re-enter enable. Once I did that, the router correctly prompted me for the password.
+
+### Lesson Learned from Troubleshooting Tip:
+
+I learned that after setting a password, I need to exit all the way back to the starting mode (User EXEC mode) to properly test it. If I stay in Privileged EXEC mode, the router won’t ask me for the password again. This showed me how important it is to fully reset my session when checking if security settings work.
+
 
 
 
