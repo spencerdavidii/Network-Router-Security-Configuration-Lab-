@@ -32,11 +32,11 @@ I connected two routers (R1 and R2) via their GigabitEthernet interfaces and cre
 * Routers – Basic network components used to test and apply configurations
 
 ###  Skills Learned
-* Learned how to set hostnames to identify devices on a network
+* Learned how to set hostnames on routers to identify devices on a network
 
-* Assigned IP addresses to network interfaces for communication
+* LGained hands-on experience setting up router passwords and encrypting them to protect configuration settings.
 
-* Enabled interfaces (turned on device ports) to establish basic connectivity
+* Connected multiple routers using GigabitEthernet0/0 interfaces for peer-to-peer communication
 
 * Practiced using the CLI (Command-Line Interface) to enter configuration commands
 
