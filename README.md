@@ -92,8 +92,8 @@ Additionally, Attackers often look for open, unsecured devices on a network. A r
 
 
 ### Troubleshooting Tip
-After setting the enable password network, I wasn’t prompted to enter the password when I typed enable again. This is because I was still in Privileged EXEC mode (R2#).
-To test the password prompt, I had to type exit twice to return to User EXEC mode (R2>), then re-enter enable. Once I did that, the router correctly prompted me for the password.
+After setting the enable password network, I wasn’t prompted to enter the password when I typed enable again. I was stuck in Privileged EXEC mode (R2#).
+To test the password prompt, I had to type exit twice to return to User EXEC mode (R2>), then re-enter enable. Once I completed this step, the router correctly prompted me for the password.
 
 ### Lesson Learned from Troubleshooting Tip:
 
