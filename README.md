@@ -95,7 +95,7 @@ Additionally, Attackers often look for open, unsecured devices on a network. A r
 After setting the enable password network, I wasn’t prompted to enter the password when I typed enable again. I was stuck in Privileged EXEC mode (R2#).
 To test the password prompt, I had to type exit twice to return to User EXEC mode (R2>), then re-enter enable. Once I completed this step, the router correctly prompted me for the password.
 
-### Lesson Learned from Troubleshooting Tip:
+### Lesson Learned Lrom Troubleshooting Tip:
 
 I learned that after setting a password, I need to exit all the way back to the starting mode (User EXEC mode) to properly test it. If I stay in Privileged EXEC mode, the router won’t ask me for the password again. This showed me how important it is to fully reset my session when checking if security settings work.
 
@@ -125,7 +125,7 @@ This command helps confirm if the changes I made in configuration mode are activ
 
 
 
-### Lab instructions 5 and Lab Instructions 6
+### Lab Instructions 5 And Lab Instructions 6
 In order to complete the necessary steps to encyrpt the password. I typed **R1 (config) #service password-encryption** as shown in the screenshot below 
 
  
@@ -148,13 +148,13 @@ Now, each router password is encrypted. We can view this in the router settings 
  
 Lab 5 and Lab 6 have been successfully completed according to the provided instructions.
 
-### The purpose of encrypted passwords in cisco 
+### The Purpose Of Encrypted Passwords In Cisco Network Devices
 Once I encrypt the password Cisco for router 1 and password network for router 2.  it transformed the original password into an unreadable format.
 This prevents anyone who views the router’s configuration from seeing the actual password.
 Also,it adds a layer of protection, making it harder for attackers to guess or steal the password. 
 
 
-### Lab InstructionS 7 and Lab Instructions 8
+### Lab Instructions 7 and Lab Instructions 8
 In this section of the lab, I inserted the commands below to disable password encyption. 
 
 R1>enable
@@ -176,7 +176,7 @@ After completing the command  **#no service running config**, I reviewed the rou
 lab 7 and Lab 8 have been successfully completed.
 
 
- ### What I Learned in this entire lab
+ ### Completed Lab Remarks 
 * I learned how to navigate between different user modes in Cisco IOS, including user EXEC, privileged EXEC (enable mode), and global configuration mode. This helped unlock deeper access levels on the router so I could make important changes. 
 
 * I now understand the importance of using the enable command to gain higher-level access before configuring the router.
