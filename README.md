@@ -45,7 +45,7 @@ I connected two routers (R1 and R2) via their GigabitEthernet interfaces and cre
 
 ### Lab Instructions for 1 and 2
 
-The first goal of this lab was to connect router 1 and router 2 by their Gigabitethernet0/0 interfaces. Essentality, routers are devices that help connect networks. Routers can forward data from one network to another based on Ip address. They are the gateway of the network. 
+The first goal of this lab was to connect router 1 and router 2 by their Gigabitethernet0/0 interfaces. Essentality, routers are devices that connects different networks together and helps direct data where it needs to go. They are considered the gateway of the network. 
 
 ![image](https://github.com/user-attachments/assets/7928c638-7f77-40ef-ba73-649b083aebfd)               
 
