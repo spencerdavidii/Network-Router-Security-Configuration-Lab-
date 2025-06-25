@@ -2,7 +2,7 @@
 
 ### OBJECTIVE
 The purpose of this lab was to get comfortable setting up network equipment like routers from scratch.I set up and protected access to the routers using basic password features in Cisco Packet Tracer. 
-I connected two routers (R1 and R2) via their GigabitEthernet interfaces and created hostnames for the routers as well.Then, I set and and protected access to the routers using basic password features in Cisco Packet Tracer.Next,I turned password encryption on and off to see how it changes what you can see when looking at the router settings. This helped me understand how to protect passwords and why encryption is important.Learning these setup tasks is a key building block for working with larger systems and keeping networks secure.
+I connected two routers (R1 and R2) via their GigabitEthernet interfaces and created hostnames for the routers as well.Then, I set and and protected access to the routers using basic password features in Cisco Packet Tracer.I turned password encryption on and off to see how it changes what you can see when looking at the router settings; This helped me understand how to protect passwords and why encryption is important.Learning these setup tasks is a key building block for working with larger systems and keeping networks secure.
 
 
 
@@ -45,7 +45,7 @@ I connected two routers (R1 and R2) via their GigabitEthernet interfaces and cre
 
 ### Lab Instructions for 1 and 2
 
-The first goal of this lab was to connect router 1 and router 2 by their Gigabitethernet0/0 interfaces. Essentality, routers are devices that connects different networks together and helps direct data where it needs to go. They are considered the gateway of the network. 
+The first goal of this lab was to connect router 1 and router 2 by their Gigabitethernet0/0 interfaces. Essentality, routers are devices that connects different networks and forwards data between them based on IP addresses. They are considered the gateway of the network. 
 
 ![image](https://github.com/user-attachments/assets/7928c638-7f77-40ef-ba73-649b083aebfd)               
 
@@ -60,13 +60,13 @@ I utilized these commands below in the screenshot  to complete the step.
 
 
 ![image](https://github.com/user-attachments/assets/57d969c4-b91c-4434-9ecd-534b416d1499)     
-           ![image](https://github.com/user-attachments/assets/9e38ade0-60e5-4547-935d-df4d1275f19b)
+    ![image](https://github.com/user-attachments/assets/9e38ade0-60e5-4547-935d-df4d1275f19b)
 
 
 **Troubleshooting Tip**
 
-While working on this lab, I noticed I couldn’t run certain commands after entering configuration mode. I had to type the enable command to enter privileged EXEC mode (also known as enable mode). Only then could I access global configuration mode with configure terminal.
-This step is like unlocking "admin access" before making deep changes to the router. Without it, the router will block certain commands to protect itself. I demonstrated the command flow below. 
+While working on this lab, I noticed I couldn’t run certain commands after entering configuration mode. I had to type the enable command to enter privileged EXEC mode (also known as enable mode),only then could I access global configuration mode with configure terminal.
+This step is like unlocking "admin access" before making deep changes to the router. Without it, the router will block certain commands to protect itself. 
 
  ### The Command Flow 
  
@@ -87,7 +87,7 @@ Next, I learned how to set up passwords for each router. I entered global config
 ![image](https://github.com/user-attachments/assets/d9defb02-ae8a-4a34-bdce-50392e002ab2)     ![image](https://github.com/user-attachments/assets/514b94b8-eb10-40c3-93a7-bacd23cd5669)
 
 ### Protecting Your Network: The Role of Router Passwords
-Setting passwords on routers is important for network security. Without a password, any one could access the router’s configuration settings and make changes.
+Setting passwords on routers are important for network security. Without a password, any one could access the router’s configuration settings and make changes to the device.
 Additionally, Attackers often look for open, unsecured devices on a network. A router without a password is an easy entry point for network hijacking, man-in-the-middle attacks, denial-of-service (DoS) attacks.
 
 
@@ -121,7 +121,7 @@ For step four of the lab, I navigated to the current configuration of the router
 When I ran the command #do sh run, this allowed me to view the router’s current settings.
 The router’s current settings showcased hostnames and passwords (if not encrypted)
 I saw the hostname and password were enabled.Additionally, the service password-encryption command was not enabled in the **before encryption for r2** screenshot (based on password visibility)
-This command helps confirm if the changes I made in configuration mode are active.Not every change is immediately obvious unless verified. Using show running-config gave me confidence that my settings were correct before testing further.
+This command helps confirm if the changes I made in configuration mode are active.Not every change is immmediately obvious unless verified and using show running-config gave me confidence that my settings were correct before testing further.
 
 
 
@@ -179,7 +179,7 @@ lab 7 and Lab 8 have been successfully completed.
  ### Completed Lab Remarks 
 * I learned how to navigate between different user modes in Cisco IOS, including user EXEC, privileged EXEC (enable mode), and global configuration mode. This helped unlock deeper access levels on the router so I could make important changes. 
 
-* I now understand the importance of using the enable command to gain higher-level access before configuring the router.
+* I  understand the importance of using the enable command to gain higher-level access before configuring the router.
 
 * I practiced entering and exiting configuration modes using commands like enable, configure terminal,show running-config,service password-encryption and exit.
 
