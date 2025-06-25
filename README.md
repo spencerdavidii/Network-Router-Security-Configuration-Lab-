@@ -95,7 +95,7 @@ Additionally, Attackers often look for open, unsecured devices on a network. A r
 After setting the enable password network, I wasn’t prompted to enter the password when I typed enable again. I was stuck in Privileged EXEC mode (R2#).
 To test the password prompt, I had to type exit twice to return to User EXEC mode (R2>), then re-enter enable. Once I completed this step, the router correctly prompted me for the password.
 
-### Lesson Learned Lrom Troubleshooting Tip:
+### Lesson Learned From Troubleshooting Tip:
 
 I learned that after setting a password, I need to exit all the way back to the starting mode (User EXEC mode) to properly test it. If I stay in Privileged EXEC mode, the router won’t ask me for the password again. This showed me how important it is to fully reset my session when checking if security settings work.
 
