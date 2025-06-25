@@ -34,7 +34,7 @@ I connected two routers (R1 and R2) via their GigabitEthernet interfaces and cre
 ###  Skills Learned
 * Learned how to set hostnames on routers to identify devices on a network
 
-* LGained hands-on experience setting up router passwords and encrypting them to protect configuration settings.
+* Gained hands-on experience setting up router passwords and encrypting them to protect configuration settings.
 
 * Connected multiple routers using GigabitEthernet0/0 interfaces for peer-to-peer communication
 
